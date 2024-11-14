@@ -8,31 +8,19 @@
 - **Kursleiter:** [@tobias-kuendig](https://github.com/tobias-kuendig)
 
 ## 📚 Überblick
-Dieses Repository enthält die Materialien und Lösungen des PHP-Grundlagenkurses. Der Kurs ist in zwei Tage aufgeteilt und folgt einem strukturierten Lernansatz von Theorie zu Praxis.
+Dieses Repository enthält die Materialien und Lösungen des PHP-Grundlagenkurses. Der Kurs ist in mehrere Tage aufgeteilt und folgt einem strukturierten Lernansatz von Theorie zu Praxis.
 
-## 🗂️ Repository Struktur
+## 🗂️ Repository Grundstruktur
 
 ```
 📁 php-grundlagen/
 ├── 📁 Tag 1/
-│   ├── 📁 Client-Server-Infrastruktur/
-│   ├── 📁 Entwicklungsumgebung/
-│   ├── 📁 PHP Theorie/
-│   ├── 📁 PHP Aufgaben/
-│   │   ├── 📁 Übung 1/
+│   ├── 📁 PHP Oberthema/
+│   │   ├── 📁 PHP spez. Thema/
 │   │   │   ├── 📁 Lösung/
-│   │   │   └── 📁 Ressourcen/
+│   │   │   └── 📁 scr*/
+│   │   │   └── 📁 res*/
 │   │   └── [Weitere Übungen...]
-│   ├── 📁 Todo-Liste/
-│   ├── 📁 Login/
-│   └── 📁 Datenbankanbindung/
-│
-├── 📁 Tag 2/
-│   ├── 📁 Formulare Theorie/
-│   ├── 📁 Formulare Aufgaben/
-│   ├── 📁 Strukturierung/
-│   └── 📁 Composer/
-│
 └── 📝 README.md
 ```
 
@@ -50,6 +38,9 @@ Dieses Repository enthält die Materialien und Lösungen des PHP-Grundlagenkurse
 - Strukturierung von Anwendungen
 - Composer & Paketverwaltung
 - Sicherheitsaspekte
+
+### Tag 3-6
+- Projekt
 
 ## 🔗 Links
 - [Mein GitHub Profil](https://github.com/HeiligerG)
