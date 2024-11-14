@@ -3,16 +3,16 @@ $errors = [];
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST) && !empty($_POST)) {
-        $csvFile = 'Daten/data.csv';
+        $csvFile = 'Daten/anmeldungen.csv';
 
         $fileHandle = fopen($csvFile, 'a');
 
         if ($fileHandle !== false) {
             if (filesize($csvFile) == 0){
-                fputcsv($fileHandle, array_keys($_POST));
+                fputcsv($fileHandle, array_keys($_POST), ';');
             }
 
-            fputcsv($fileHandle, $_POST);
+            fputcsv($fileHandle, $_POST, ';');
 
             fclose($fileHandle);
         }

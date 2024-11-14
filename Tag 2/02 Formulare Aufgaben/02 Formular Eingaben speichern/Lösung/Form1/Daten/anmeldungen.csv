@@ -1,0 +1,9 @@
+name;email;phone;people;hotel;program;note
+"Peter Muster";peter@muster.ch;"041 371 24 24";2;"Steinberger Grandhotel Belvédère";Billardturnier;"Hallo, ich freue mich! Gruss, Peter"
+"Peter Muster";peter@muster.ch;"041 371 24 24";2;"Steinberger Grandhotel Belvédère";Billardturnier;"Hallo; ich freue mich! Gruss; Peter"
+"Peter Muster";peter@muster.ch;"041 371 24 24";2;"Steinberger Grandhotel Belvédère";Billardturnier;"Hallo 
+   
+Freue mich!     <--
+                Wird im Excle korrekt angezeigt!                                                   ---^
+Gruss, Peter"   <--
+"Peter Muster";peter@muster.ch;"041 371 24 24";2;"Steinberger Grandhotel Belvédère";Billardturnier;Hallo!
