@@ -45,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 
-$name = $_POST["name"] ?? "";
+$name = trim($_POST["name"] ?? "");
 $email = $_POST["email"] ?? "";
 $phone = $_POST["phone"] ?? "";
 $people = $_POST["people"] ?? "";
