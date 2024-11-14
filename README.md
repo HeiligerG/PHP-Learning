@@ -1,91 +1,59 @@
 # 🚀 PHP Grundlagen Lernprojekt
 
 ![PHP Logo](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/HeiligerG)
+
+## 👥 Projekt Details
+- **Student:** [@HeiligerG](https://github.com/HeiligerG)
+- **Kursleiter:** [@tobias-kuendig](https://github.com/tobias-kuendig)
 
 ## 📚 Überblick
+Dieses Repository enthält die Materialien und Lösungen des PHP-Grundlagenkurses. Der Kurs ist in zwei Tage aufgeteilt und folgt einem strukturierten Lernansatz von Theorie zu Praxis.
 
-Dieses Repository dokumentiert meinen Lernfortschritt im PHP-Grundlagenkurs. Der Kurs ist in zwei Tage aufgeteilt und kombiniert theoretische Grundlagen mit praktischen Übungen.
+## 🗂️ Repository Struktur
 
-## 🎯 Lernkonzept
-
-Mein Lernansatz folgt einem strukturierten 3-Stufen-Modell:
-
-```mermaid
-graph LR
-    A[Theorie verstehen] --> B[Aufgaben angehen]
-    B --> C[Lösungen entwickeln]
+```
+📁 php-grundlagen/
+├── 📁 Tag 1/
+│   ├── 📁 Client-Server-Infrastruktur/
+│   ├── 📁 Entwicklungsumgebung/
+│   ├── 📁 PHP Theorie/
+│   ├── 📁 PHP Aufgaben/
+│   │   ├── 📁 Übung 1/
+│   │   │   ├── 📁 Lösung/
+│   │   │   └── 📁 Ressourcen/
+│   │   └── [Weitere Übungen...]
+│   ├── 📁 Todo-Liste/
+│   ├── 📁 Login/
+│   └── 📁 Datenbankanbindung/
+│
+├── 📁 Tag 2/
+│   ├── 📁 Formulare Theorie/
+│   ├── 📁 Formulare Aufgaben/
+│   ├── 📁 Strukturierung/
+│   └── 📁 Composer/
+│
+└── 📝 README.md
 ```
 
-1. **Theorie**: Grundlegendes Verständnis aufbauen
-2. **Aufgaben**: Praktische Herausforderungen annehmen
-3. **Lösungen**: Eigenständige Implementierung
-
-## 📋 Kursinhalte
+## 🎯 Kursaufbau
 
 ### Tag 1
-- **Begrüßung/Einführung**
-  - Erste Schritte in der PHP-Welt
-  - Überblick über den Kursablauf
-  
-- **Interaktive Website**
-  - Grundlagen der Web-Interaktivität
-  - Client-Server-Kommunikation
-  
-- **Webserver-Setup**
-  - Lokale Entwicklungsumgebung
-  - Server-Konfiguration
-  
-- **PHP-Grundlagen**
-  - Syntax und Basiskonzepte
-  - Variablen und Datentypen
-  
-- **PHP-Aufgaben**
-  - Praktische Übungen
-  - Code-Beispiele
-  
-- **Datenbankanbindung**
-  - MySQL-Grundlagen
-  - PHP-Database-Connectivity
+- Client-Server Grundlagen
+- Entwicklungsumgebung Setup
+- PHP Grundlagen (Theorie & Praxis)
+- Praktische Übungen
+- Datenbankanbindung
 
 ### Tag 2
-- **Datenverarbeitung**
-  - Fortgeschrittene Datenmanipulation
-  - Array-Verarbeitung
-  
-- **Formularvalidierung**
-  - Sichere Eingabevalidierung
-  - Best Practices
-  
-- **Paketverwaltung mit Composer**
-  - Dependency Management
-  - Package Installation
-  
-- **Web Application Security**
-  - Sicherheitsgrundlagen
-  - Best Practices für sichere Webanwendungen
+- Formularverarbeitung
+- Strukturierung von Anwendungen
+- Composer & Paketverwaltung
+- Sicherheitsaspekte
 
-## 🛠️ Projektstatus
-
-- [x] Tag 1 Material gesichtet
-- [ ] Tag 2 Material gesichtet
-- [ ] Praktische Übungen abgeschlossen
-- [ ] Eigene Projekte implementiert
-
-## 💡 Besondere Merkmale
-
-- Strukturierter Lernansatz
-- Praxisorientierte Übungen
-- Fokus auf Sicherheit
-- Moderne PHP-Praktiken
-- Composer Integration
-
-## 🤝 Mitwirkung
-
-Feedback und Verbesserungsvorschläge sind immer willkommen! Fühlt euch frei, Issues zu erstellen oder Pull Requests einzureichen.
-
-## 📝 Lizenz
-
-Dieses Projekt ist für Bildungszwecke bestimmt. Alle Inhalte werden unter standardmäßigen Bildungsrichtlinien bereitgestellt.
+## 🔗 Links
+- [Mein GitHub Profil](https://github.com/HeiligerG)
+- [Kursleiter Profil](https://github.com/tobias-kuendig)
 
 ---
-*Entwickelt mit 💜 und viel Kaffee ☕*
+*Entwickelt mit 💜 und Begeisterung für PHP*
